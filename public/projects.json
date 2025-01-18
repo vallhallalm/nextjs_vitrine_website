@@ -1,0 +1,45 @@
+[
+  {
+    "name": "First Metaverse Market Gardener",
+    "description": "This project involved the development of an NFT collection using the ERC1155 standard. The smart contract was built with the OpenZeppelin template, ensuring adherence to established security practices. The project was tested and deployed on the Goerli Ethereum testnet, utilizing Hardhat for contract development, testing, and deployment. This project demonstrates proficiency in blockchain technologies and the practical application of ERC1155 standards.",
+    "image": "",
+    "gitLink": "https://github.com/vallhallalm/First-Metaverse-Market-Gardener"
+  },
+  {
+    "name": "Banque Populaire pentest application clone",
+    "description": "This project involved replicating the Banque Populaire application as a learning exercise in penetration testing. The frontend was built using React, closely mimicking the Banque Populaire user interface. An Express-based API and a MySQL database were integrated to replicate the backend functionality. The entire application is fully containerized with Docker, enabling easy setup and execution through Docker Compose. The project was designed as a penetration testing environment to simulate real-world vulnerabilities. It incorporates critical design flaws and challenges, where the objective was to gain root access to the hosting system of the Docker container. Techniques such as SQL injection, remote file injection, reverse shell exploitation, brute force attacks, and container evasion were used to exploit the system.",
+    "image": "",
+    "videoLink": "https://www.youtube.com/embed/hdzjighygik",
+    "gitLink": "https://github.com/vallhallalm/security-test-app"
+  },
+  {
+    "name": "Tweet sentiment analysis using Machine Learning",
+    "description": "This project aimed to classify tweets as either aggressive or neutral using machine learning techniques. We employed both supervised and unsupervised learning paradigms to compare their effectiveness. For supervised learning, we utilized Support Vector Machine (SVM), while for unsupervised learning, we implemented K-Means clustering. The code was executed on AWS EC2 instances to ensure scalability, with data stored in MongoDB's managed cloud service.",
+    "image": "",
+    "gitLink": "https://github.com/vallhallalm/Projet-analyse-de-Tweet"
+  },
+  {
+    "name": "Movie-zu",
+    "description": "This project served as an introduction to React and REST API integration. The goal was to build a React application that fetches and displays movie statistics using The Movie Database (TMDb) REST API. Through this project, I gained experience in handling API requests, managing state in React, and presenting data in an interface.",
+    "image": "https://raw.githubusercontent.com/vallhallalm/Movie-Zu/refs/heads/main/movie-zu.png",
+    "gitLink": "https://github.com/vallhallalm/Movie-Zu"
+  },
+  {
+    "name": "JAVA Shape Up",
+    "description": "This project is an implementation of the Shape Up card game in Java. It marked my first hands-on application of the Object-Oriented Programming (OOP) paradigm, where I structured the game using key OOP principles such as class declaration, object instanciation... This project helped solidify my understanding of object-oriented design and its practical application in software development.",
+    "image": "",
+    "gitLink": "https://github.com/vallhallalm/Projet-Shape-Up"
+  },
+  {
+    "name": "Covid vaccination management website",
+    "description": "This project is a web application built using HTML, CSS, and PHP, designed to manage a MySQL-based system for booking COVID vaccination appointments. The application was developed with a clear focus on the MVC (Model-View-Controller) architecture, ensuring separation of concerns and maintainability. Users can easily book their appointments, while the backend handles data storage and management efficiently.",
+    "image": "https://user-images.githubusercontent.com/64600282/151717484-2791c6cf-f57e-419d-a77d-39bdd6928593.png",
+    "gitLink": "https://github.com/vallhallalm/projet-site-web-covid"
+  },
+  {
+    "name": "Airport simulation app",
+    "description": "This project is a terminal-based application developed in C, designed to simulate the full process of an airport management system. From purchasing tickets to boarding a flight, the application models key functionalities of airport operations. It provided an opportunity to apply programming concepts such as data structures, file handling, and user input management in a real-world context.",
+    "image": "",
+    "gitLink": "https://github.com/vallhallalm/Projet-simulateur-d-aeroport"
+  }
+]

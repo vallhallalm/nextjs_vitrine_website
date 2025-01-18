@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Programming Languages",
+    "items": [
+      "JavaScript / TypeScript",
+      "HTML / CSS",
+      "Node.js",
+      "C++",
+      "Python",
+      "PHP",
+      "Java"
+    ]
+  },
+  {
+    "title": "Backend",
+    "items": ["Express.js", "Nest.js", "BullMQ", "RabbitMQ", "Jest"]
+  },
+  {
+    "title": "Frontend",
+    "items": ["React.js", "Next.js", "Cypress", "MUI", "Chakra UI", "i18n"]
+  },
+  {
+    "title": "Data Manipulation / Storing",
+    "items": ["SQL", "NoSQL (RocksDB, MongoDB)", "Kafka", "Redis"]
+  },
+  {
+    "title": "Infra / Cloud / System",
+    "items": [
+      "Basic Linux skills",
+      "AWS (Amplify, Step Functions, Lambda, API Gateway)",
+      "Google Cloud Platform (Big Query)",
+      "Snowflake",
+      "Docker"
+    ]
+  },
+  {
+    "title": "Blockchain",
+    "items": [
+      "EVM blockchains (Ethereum, Polygon, etc.)",
+      "Solana",
+      "TON (The Open Network)"
+    ]
+  }
+]
