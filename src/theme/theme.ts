@@ -6,7 +6,7 @@ const theme = async () => {
   return Promise.resolve(
     extendTheme({
       config: {
-        initialColorMode: "light",
+        initialColorMode: "dark",
         useSystemColorMode: true,
       },
     })

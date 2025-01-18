@@ -10,8 +10,8 @@ export default function Home() {
         <Image
           src="/louis_magnier.png"
           alt="Louis Magnier"
-          width={380}
-          height={380}
+          width={{ base: 240, md: 380 }}
+          height={{ base: 240, md: 380 }}
         />
         <Box
           width={"100%"}
