@@ -4,6 +4,7 @@ import "./globals.css";
 import { Box, ChakraProvider } from "@chakra-ui/react";
 import Sidebar from "../components/sidebar";
 import { useMemo } from "react";
+import theme from "../theme/theme";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <ChakraProvider>
+        <ChakraProvider theme={theme}>
           <Box sx={{ direction: "row" }}>
             <Box pl={{ base: "5px", md: "220px" }}>
               {children}

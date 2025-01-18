@@ -1,16 +1,11 @@
-// src/theme.ts
+"use client";
 import { extendTheme } from "@chakra-ui/react";
 
-const theme = async () => {
-  "use server";
-  return Promise.resolve(
-    extendTheme({
-      config: {
-        initialColorMode: "dark",
-        useSystemColorMode: true,
-      },
-    })
-  );
-};
+const theme = extendTheme({
+  config: {
+    initialColorMode: "dark",
+    useSystemColorMode: true,
+  },
+});
 
 export default theme;
