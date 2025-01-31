@@ -6,7 +6,7 @@ import { FaFile } from "react-icons/fa";
 import { FaTerminal } from "react-icons/fa";
 
 interface FooterComponentProps {
-  currentPage: "home" | "projects" | "hobbies" | "contact";
+  currentPage: "home" | "projects" | "hobbies" | "contact" | "career";
 }
 
 const FooterComponent = (props: FooterComponentProps) => {
@@ -29,6 +29,12 @@ const FooterComponent = (props: FooterComponentProps) => {
         <Link href="/hobbies">
           <FaPuzzlePiece aria-hidden width={16} height={16} />
           Hobbies
+        </Link>
+      )}
+      {currentPage !== "career" && (
+        <Link href="/career">
+          <FaFile aria-hidden width={16} height={16} />
+          Career
         </Link>
       )}
       {currentPage !== "contact" && (

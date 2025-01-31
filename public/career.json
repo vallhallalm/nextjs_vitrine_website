@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Scorechain: Software Engineer",
+    "description": "After completing two internships at Scorechain, I had the opportunity to continue working with them as a Fullstack Software Engineer. My role was to actively contribute to the development efforts of the tech team.\n\n • Blockchain Integration: \nI contributed to integrating support for two new blockchains: Solana and TON, expanding the platform's capabilities and ensuring seamless compatibility.\n\n • Data Importer Design: \nAs data—especially blockchain address naming—was at the core of Scorechain’s business, we needed efficient ways to aggregate and process information from multiple sources. When the data was both qualitative and quantitative, we designed and implemented automated importers to streamline ingestion.\n\n • New Feature Development: \nTo enhance the product, particularly for our largest customers, I worked on developing key features, such as:\n-  Audit logging , allowing companies to track and review user setting modifications.\n-  A user review system , where certain modifications required validation from other users based on roles, ensuring better security and compliance.\n\n • New Product Development: \nI joined Scorechain at a pivotal moment when the Unified Analysis Platform was nearly complete, and the company saw opportunities for new side products. Notable projects included:\n-  A Telegram bot that generated and sold $3 PDF activity reports , offering blockchain address analysis in a user-friendly format.\n-  A QuickNode add-on , providing compliance-focused features for $50/month, allowing QuickNode users to integrate regulatory tools into their RPC nodes.\n\n • Application Maintenance & Optimization: \nAs with any tech company, maintaining and improving existing applications was crucial. My contributions included but were not restricted to:\n- Upgrading dependencies for security and performance.\n- Developping and maintaining automated tests.\n- Resolving bugs to enhance platform stability and user experience.\n\nThis experience strengthened my expertise in blockchain development, data engineering, and fullstack software design, while allowing me to work on high-impact projects in a professional environment.",
+    "image": "",
+    "from": "February 2024",
+    "technologies": [
+      {
+        "icon": "https://cdn.simpleicons.org/typescript/3178C6",
+        "tooltip": "Typescript"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/apachekafka/231F20",
+        "tooltip": "Kafka"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/rocksdb/000000",
+        "tooltip": "RocksDB"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/cplusplus/00599C",
+        "tooltip": "C++"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/express/000000",
+        "tooltip": "Express.js"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/react/61DAFB",
+        "tooltip": "React.js"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/cypress/69D3A7",
+        "tooltip": "Cypress"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/i18next/26A69A",
+        "tooltip": "i18n"
+      },
+      {
+        "tooltip": "Solana",
+        "icon": "https://cdn.simpleicons.org/solana/9945FF"
+      },
+      {
+        "tooltip": "TON (The Open Network)",
+        "icon": "https://cdn.simpleicons.org/ton/0098EA"
+      },
+      {
+        "tooltip": "Snowflake",
+        "icon": "https://cdn.simpleicons.org/snowflake/29B5E8"
+      }
+    ]
+  },
+  {
+    "name": "Scorechain: Data/Backend engineer 6 months internship",
+    "description": "This was my end-of-study internship. The objective was to develop a proof of concept for integrating NFT support into Scorechain’s crypto-compliance product.\n\n • Understanding NFT Standards & Data Extraction\nThe primary focus was to analyze NFT smart contract standards on EVM blockchains (ERC-721 & ERC-1155) and adapt the data pipeline for AML analysis. I first studied EVM logs to extract NFT transfer data and structured this raw information into key-value pairs, enabling efficient storage in RocksDB.\n\n • Backend & API Development\nI extended a C++ API to include NFT activities and exposed this new data through Scorechain’s TypeScript API, making it accessible to clients.\n\n • R&D & NFT Price Modeling\nSince the core implementation was completed efficiently, I explored R&D topics, including building an NFT price estimation model based on on-chain prices, collection data, and creator risk metrics. I also worked on integrating NFT insights into the frontend.\n\n • Real-World Impact\nThis POC was partially integrated into Scorechain’s product, notably for scoring NFTs based on transaction and ownership history, enhancing risk assessment in the compliance platform.",
+    "image": "",
+    "to": "January 2024",
+    "from": "July 2023",
+    "technologies": [
+      {
+        "icon": "https://cdn.simpleicons.org/ethereum/000000",
+        "tooltip": "Ethereum"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/typescript/3178C6",
+        "tooltip": "Typescript"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/apachekafka/231F20",
+        "tooltip": "Kafka"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/rocksdb/000000",
+        "tooltip": "RocksDB"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/cplusplus/00599C",
+        "tooltip": "C++"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/express/000000",
+        "tooltip": "Express.js"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/docker/2496ED",
+        "tooltip": "Docker"
+      }
+    ]
+  },
+
+  {
+    "name": "Student job: data pipeline for NLP",
+    "description": "During my studies at Université de Technologie de Troyes, I had the opportunity to work with a PhD student specializing in NLP. My mission was to take her scripts, written in multiple Python versions with different purposes, and create a fully automated processing pipeline.\n\nTo achieve this, I used Docker to ensure each service had the proper environment, and I set up communication between them using a central RabbitMQ instance in request/reply mode. The entire pipeline was designed to be easy to run thanks to a Docker Compose file.",
+    "image": "",
+    "from": "January 2023",
+    "to": "July 2023",
+    "technologies": [
+      {
+        "icon": "https://cdn.simpleicons.org/python/3776AB",
+        "tooltip": "Python"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/docker/2496ED",
+        "tooltip": "Docker"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/rabbitmq/FF6600",
+        "tooltip": "RabbitMQ"
+      }
+    ]
+  },
+  {
+    "name": "Scorechain: frontend developper 6 months internship",
+    "description": "This was my first internship related to IT. I was embedded in the frontend development team at Scorechain during the development of their all-in-one platform. My main goal was to create and maintain the new React app.\n\nOther tasks included developing a test suite using Cypress and restructuring the main translation JSON file into multiple smaller ones to make the translation system more scalable.",
+    "image": "",
+    "from": "July 2022",
+    "to": "december 2022",
+    "technologies": [
+      {
+        "icon": "https://cdn.simpleicons.org/react/61DAFB",
+        "tooltip": "React.js"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/cypress/69D3A7",
+        "tooltip": "Cypress"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/i18next/26A69A",
+        "tooltip": "i18n"
+      }
+    ]
+  }
+]

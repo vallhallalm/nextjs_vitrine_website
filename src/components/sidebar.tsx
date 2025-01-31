@@ -7,6 +7,7 @@ import {
   useColorMode,
   IconButton,
   useDisclosure,
+  Button,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import React, { useEffect } from "react";
@@ -133,6 +134,25 @@ export default function Sidebar() {
             }}
           >
             <Link
+              href="/career"
+              onClick={() => window.innerWidth <= 48 * 16 && onClose()}
+            >
+              Career
+            </Link>
+          </Box>
+          <Box
+            sx={{
+              "&:hover": {
+                textDecoration: "none",
+                bg: "#f8f9fa",
+                color: "#002b57",
+              },
+              p: "2",
+              borderRadius: "md",
+              color: "#f8f9fa",
+            }}
+          >
+            <Link
               href="/projects"
               onClick={() => window.innerWidth <= 48 * 16 && onClose()}
             >
@@ -177,6 +197,17 @@ export default function Sidebar() {
               Contact
             </Link>
           </Box>
+          <Button
+            fontSize={"12px"}
+            as={Link}
+            href="/resume_louis_magnier.pdf"
+            colorScheme="blue"
+            size="lg"
+            target="_blank"
+            download
+          >
+            Download My Resume
+          </Button>
         </VStack>
       </Box>
     </>

@@ -7,21 +7,36 @@ import {
   Link,
   AspectRatio,
   Heading,
+  Tooltip,
 } from "@chakra-ui/react";
 
 interface ProjectCardProps {
   name: string;
   description: string;
   image?: string;
-  githubLink: string;
+  githubLink?: string;
   videoLink?: string;
+  technologyIcon?: { icon: string; tooltip: string }[];
+  dateFrom?: string;
+  dateTo?: string;
 }
 
 const ProjectCard = (props: ProjectCardProps) => {
-  const { name, description, githubLink, image, videoLink } = props;
+  const {
+    name,
+    description,
+    githubLink,
+    image,
+    videoLink,
+    technologyIcon,
+    dateFrom,
+    dateTo,
+  } = props;
+
   return (
     <Link href={githubLink} isExternal style={{ textDecoration: "none" }}>
       <Box
+        className="container"
         borderWidth="1px"
         borderRadius="lg"
         overflow="hidden"
@@ -30,15 +45,40 @@ const ProjectCard = (props: ProjectCardProps) => {
         transition="transform 0.2s ease, box-shadow 0.2s ease"
       >
         <VStack align="start" spacing={4} padding={4}>
-          <Heading
-            size="lg"
-            borderBottom="2px solid"
-            borderColor="blue.500"
-            pb={2}
+          <VStack justifyContent={"start"} alignItems={"start"}>
+            <Heading
+              size="lg"
+              borderBottom="2px solid"
+              borderColor="blue.500"
+              pb={2}
+            >
+              {name}
+            </Heading>
+            <Text fontSize={"10px"} fontStyle={"italic"}>
+              {dateFrom ? `From ${dateFrom} ` : undefined}{" "}
+              {dateTo ? `to ${dateTo} ` : undefined}
+            </Text>
+          </VStack>
+          <VStack
+            flexDirection={"row"}
+            width="100%"
+            alignItems={"right"}
+            justifyContent={"right"}
           >
-            {name}
-          </Heading>
-          <Text fontSize="md">{description}</Text>
+            {technologyIcon?.map((icon, i) => (
+              <Tooltip key={icon.tooltip + i} label={icon.tooltip}>
+                <Image
+                  src={icon.icon}
+                  alt={`Tech icon ${icon.tooltip}`}
+                  width="10"
+                  height="10"
+                />
+              </Tooltip>
+            ))}
+          </VStack>
+          <Text whiteSpace="pre-wrap" fontSize="md">
+            {description}
+          </Text>
         </VStack>
         {image && (
           <Image

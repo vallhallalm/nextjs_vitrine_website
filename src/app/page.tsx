@@ -2,17 +2,36 @@ import styles from "./page.module.css";
 import { Box, Text, VStack, SimpleGrid, Image } from "@chakra-ui/react";
 import FooterComponent from "@/components/footer";
 import skills from "../../public/skills.json";
+import KeyNumbers from "@/components/keyNumber";
+
+function calculateYearsPassed(): string {
+  const feb2_2023 = new Date("2023-02-02");
+  const currentDate = new Date();
+
+  const timeDifference = currentDate.getTime() - feb2_2023.getTime();
+  const yearsPassed = timeDifference / (1000 * 3600 * 24 * 365.25); // Convert ms to years
+
+  return yearsPassed.toFixed(0);
+}
 
 export default function Home() {
   return (
     <Box className={styles.page}>
       <Box className={styles.main}>
-        <Image
-          src="/louis_magnier.png"
-          alt="Louis Magnier"
-          width={{ base: 240, md: 380 }}
-          height={{ base: 240, md: 380 }}
-        />
+        <VStack flexDirection={{ base: "column", lg: "row" }}>
+          <Image
+            src="/louis_magnier.png"
+            alt="Louis Magnier"
+            width={{ base: 240, md: 380 }}
+            height={{ base: 240, md: 380 }}
+          />
+          <VStack ml={{ base: "0px", lg: "60px" }}>
+            <KeyNumbers
+              yearsExperience={calculateYearsPassed()}
+              projectsCount={10}
+            />
+          </VStack>
+        </VStack>
         <Box
           width={"100%"}
           alignItems={"flex-start"}
@@ -51,15 +70,33 @@ export default function Home() {
                 borderWidth={1}
                 borderRadius="md"
                 shadow="md"
+                className="container"
               >
                 <Text fontSize="lg" fontWeight="bold" marginBottom={2}>
                   {skillCategory.title}
                 </Text>
                 <VStack align="start" spacing={1}>
                   {skillCategory.items.map((item, i) => (
-                    <Text key={i} fontSize="md" lineHeight="1.6">
-                      • {item}
-                    </Text>
+                    <VStack
+                      width={"100%"}
+                      key={i}
+                      flexDirection="row"
+                      justifyContent={"space-between"}
+                      alignItems={"center"}
+                    >
+                      <Text fontSize="md" lineHeight="1.6">
+                        • {item.title}
+                      </Text>
+                      {item.iconSrc && (
+                        <Image
+                          alt={`${item.title} technology icon`}
+                          height="7"
+                          width="7"
+                          color="white"
+                          src={item.iconSrc}
+                        />
+                      )}
+                    </VStack>
                   ))}
                 </VStack>
               </Box>
