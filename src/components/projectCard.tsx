@@ -63,7 +63,8 @@ const ProjectCard = (props: ProjectCardProps) => {
             flexDirection={"row"}
             width="100%"
             alignItems={"right"}
-            justifyContent={"right"}
+            justifyContent={{ base: "center", md: "right" }}
+            flexWrap={"wrap"}
           >
             {technologyIcon?.map((icon, i) => (
               <Tooltip key={icon.tooltip + i} label={icon.tooltip}>
