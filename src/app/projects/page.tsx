@@ -23,7 +23,7 @@ export default function Project() {
               <ProjectCard
                 name={project.name}
                 description={project.description}
-                githubLink={project.gitLink}
+                githubLinks={project.gitLink}
                 image={project.image}
                 videoLink={project.videoLink}
                 technologyIcon={project.technologies}
