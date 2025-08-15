@@ -1,7 +1,7 @@
 "use client";
 import React, { forwardRef, useMemo, useRef, useLayoutEffect } from "react";
 import { Canvas, useFrame, useThree, RootState } from "@react-three/fiber";
-import { Color, Mesh, ShaderMaterial } from "three";
+import { Color, IUniform, Mesh, ShaderMaterial } from "three";
 import { useColorModeValue } from "@chakra-ui/react";
 
 type NormalizedRGB = [number, number, number];
@@ -25,7 +25,7 @@ interface SilkUniforms {
   uColor2: UniformValue<Color>;
   uRotation: UniformValue<number>;
   uTime: UniformValue<number>;
-  [uniform: string]: any;
+  [uniform: string]: IUniform;
 }
 
 const vertexShader = `
@@ -160,6 +160,7 @@ const Silk: React.FC<SilkProps> = ({
       uRotation: { value: rotation },
       uTime: { value: 0 }, // <- this object must not be replaced
     }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     []
   );
 
