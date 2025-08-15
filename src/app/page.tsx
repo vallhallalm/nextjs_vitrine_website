@@ -42,8 +42,8 @@ export default function Home() {
           A quick overview
         </Box>
         <Box width={"100%"}>
-          My name is Louis Magnier, and I am currently a Software Engineer at
-          Scorechain in Luxembourg. I am deeply passionate about software
+          My name is Louis Magnier, and I am currently a Lead Software Engineer
+          at Scorechain in Luxembourg. I am deeply passionate about software
           development, with a strong focus on creating performant, scalable, and
           reliable systems. I hold a Master’s degree in Informatics and
           Information Systems from Université de Technologie de Troyes (UTT,
