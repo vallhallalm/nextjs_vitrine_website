@@ -5,7 +5,11 @@ import { Box, ChakraProvider } from "@chakra-ui/react";
 import Sidebar from "../components/sidebar";
 import { useMemo } from "react";
 import theme from "../theme/theme";
+import dynamic from "next/dynamic";
 
+const Silk = dynamic(() => import("../components/silkBackground"), {
+  ssr: false, // <- this is the key
+});
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -34,6 +38,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <ChakraProvider theme={theme}>
+          <Silk speed={5} scale={1} noiseIntensity={0.1} rotation={0} />
           <Box sx={{ direction: "row" }}>
             <Box pl={{ base: "5px", md: "220px" }}>
               {children}

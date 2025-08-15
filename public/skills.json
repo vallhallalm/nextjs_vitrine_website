@@ -104,6 +104,10 @@
       {
         "title": "Redis",
         "iconSrc": "https://cdn.simpleicons.org/redis/FF4438"
+      },
+      {
+        "iconSrc": "https://cdn.simpleicons.org/clickhouse/FFCC01",
+        "title": "ClickHouse"
       }
     ]
   },
@@ -153,6 +157,10 @@
       },
       {
         "title": "Hard hat"
+      },
+      {
+        "iconSrc": "https://cdn.simpleicons.org/stellar/D4D4D4",
+        "title": "Stellar"
       }
     ]
   }

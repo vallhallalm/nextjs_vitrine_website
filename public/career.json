@@ -1,9 +1,54 @@
 [
   {
+    "name": "Scorechain: Lead Software Engineer",
+    "description": "Building on my previous contributions, I was promoted to Lead Software Engineer, I took on the responsibility of leading a team of four developers, focusing on mentoring juniors, conducting code reviews, and supporting the team in making sound technical decisions and understanding business rules, while continuing to actively contribute to development myself.\n\n • Key Projects: \nI led the design and implementation of a tracking feature in our Telegram bot, improving its monitoring capabilities and user experience.\nI managed the full development process to integrate six new blockchains into the platform, expanding its scope and technical reach.\n\n • Collaboration & Coordination\nI work closely with the CTO and product team through pre-sprint planning, sprint planning, and sprint reviews to ensure smooth execution of priorities.\nI participate in regular strategy alignment meetings with both teams to guarantee that business objectives and technical feasibility are fully aligned.\n\n • On-Call Responsibilities\nI am part of the 1-in-3 weeks on-call rotation to handle critical production issues, such as switching to backup providers during outages, restoring connectivity after server failures, or resolving network issues between our servers.\nI also ensure quick recovery of applications running in our Docker Swarm cluster in the event of downtime.\n\n • Impact\nSince taking on this role, our team has consistently closed sprints on time with all planned features deployed.\nWe have increased the number of story points completed per sprint while maintaining code quality.\nThe team has grown into a cohesive unit, sharing knowledge and learning from one another to continuously improve our processes.",
+    "image": "",
+    "from": "March 2025",
+    "technologies": [
+      {
+        "icon": "https://cdn.simpleicons.org/typescript/3178C6",
+        "tooltip": "Typescript"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/apachekafka/231F20",
+        "tooltip": "Kafka"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/rocksdb/000000",
+        "tooltip": "RocksDB"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/cplusplus/00599C",
+        "tooltip": "C++"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/express/000000",
+        "tooltip": "Express.js"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/stellar/D4D4D4",
+        "tooltip": "Stellar"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/clickhouse/FFCC01",
+        "tooltip": "ClickHouse"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/ethereum/000000",
+        "tooltip": "EVM L2s"
+      },
+      {
+        "tooltip": "Snowflake",
+        "icon": "https://cdn.simpleicons.org/snowflake/29B5E8"
+      }
+    ]
+  },
+  {
     "name": "Scorechain: Software Engineer",
     "description": "After completing two internships at Scorechain, I had the opportunity to continue working with them as a Fullstack Software Engineer. My role was to actively contribute to the development efforts of the tech team.\n\n • Blockchain Integration: \nI contributed to integrating support for two new blockchains: Solana and TON, expanding the platform's capabilities and ensuring seamless compatibility.\n\n • Data Importer Design: \nAs data—especially blockchain address naming—was at the core of Scorechain’s business, we needed efficient ways to aggregate and process information from multiple sources. When the data was both qualitative and quantitative, we designed and implemented automated importers to streamline ingestion.\n\n • New Feature Development: \nTo enhance the product, particularly for our largest customers, I worked on developing key features, such as:\n-  Audit logging , allowing companies to track and review user setting modifications.\n-  A user review system , where certain modifications required validation from other users based on roles, ensuring better security and compliance.\n\n • New Product Development: \nI joined Scorechain at a pivotal moment when the Unified Analysis Platform was nearly complete, and the company saw opportunities for new side products. Notable projects included:\n-  A Telegram bot that generated and sold $3 PDF activity reports , offering blockchain address analysis in a user-friendly format.\n-  A QuickNode add-on , providing compliance-focused features for $50/month, allowing QuickNode users to integrate regulatory tools into their RPC nodes.\n\n • Application Maintenance & Optimization: \nAs with any tech company, maintaining and improving existing applications was crucial. My contributions included but were not restricted to:\n- Upgrading dependencies for security and performance.\n- Developping and maintaining automated tests.\n- Resolving bugs to enhance platform stability and user experience.\n\nThis experience strengthened my expertise in blockchain development, data engineering, and fullstack software design, while allowing me to work on high-impact projects in a professional environment.",
     "image": "",
     "from": "February 2024",
+    "to": "March 2025",
     "technologies": [
       {
         "icon": "https://cdn.simpleicons.org/typescript/3178C6",
