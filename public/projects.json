@@ -1,5 +1,38 @@
 [
   {
+    "name": "Ledger Seal - On chain notary",
+    "description": "Ledger Seal is my first decentralized application (DApp), built to provide a tamper-proof digital sealing mechanism powered by blockchain technology. Through a clean and intuitive interface, users can record data or document hashes directly on-chain, ensuring their integrity and traceability over time. At its core, the project relies on a secure smart contract that guarantee immutability without the need for any central authority. This project demonstrates my understanding of blockchain fundamentals - including transaction flow, hashing, and immutable storage - as well as my ability to build complete DApps that seamlessly connect a web front end with smart contract logic. It is currently available on chilliz spicy testnet as well as on ethereum holesky testnet.",
+    "image": "https://raw.githubusercontent.com/vallhallalm/nextjs_vitrine_website/main/public/ledger-seal-web-app.png",
+    "gitLink": [
+      {
+        "link": "https://github.com/vallhallalm/ledger-seal",
+        "name": "Ledger Seal's repository"
+      },
+      {
+        "link": "https://ledger-seal.louis-magnier.eu/",
+        "name": "Deployed app link"
+      }
+    ],
+    "technologies": [
+      {
+        "icon": "https://cdn.simpleicons.org/nodedotjs/5FA04E",
+        "tooltip": "Node.js"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/solidity/000000",
+        "tooltip": "Solidity"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/ethereum/000000",
+        "tooltip": "Ethereum"
+      },
+      {
+        "icon": "https://cdn.simpleicons.org/react/61DAFB",
+        "tooltip": "React.js"
+      }
+    ]
+  },
+  {
     "name": "Chiliz Hackathon - Hacking Paris 2025 ",
     "description": "I had the opportunity to join Kolizeo (a french company operating in the fan experience remain) during the Hacking Paris 2025 hackathon by Chiliz to integrate blockchain into their product. \n - Deployed 4 smart contracts (ERC1155, ERC20, and two custom contracts) on the Chiliz testnet \n - Built a TypeScript API with 13 endpoints to bridge Kolizeo’s Unity app to the blockchain \nOne of my most exciting projects so far, combining product thinking, smart contract development, and backend/API work in a fast-paced environment.",
     "image": "",
