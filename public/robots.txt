@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://louis-magnier.eu
+
+# Sitemaps
+Sitemap: https://louis-magnier.eu/sitemap.xml
