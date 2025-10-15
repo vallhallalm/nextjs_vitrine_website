@@ -66,7 +66,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 name: "Scorechain",
               },
-              alumnOf: {
+              alumniOf: {
                 "@type": "EducationalOrganization",
                 name: "Université de Technologie de Troyes",
               },
