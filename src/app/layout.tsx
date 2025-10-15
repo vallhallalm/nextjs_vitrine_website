@@ -49,6 +49,30 @@ export default function RootLayout({
           </Box>
           {sideBarComp}
         </ChakraProvider>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Louis Magnier",
+              jobTitle: "Lead Software Engineer",
+              url: "https://louis-magnier.eu",
+              sameAs: [
+                "https://www.linkedin.com/in/louis-magnier-8a84b3221/",
+                "https://github.com/vallhallalm",
+              ],
+              worksFor: {
+                "@type": "Organization",
+                name: "Scorechain",
+              },
+              alumnOf: {
+                "@type": "EducationalOrganization",
+                name: "Université de Technologie de Troyes",
+              },
+            }),
+          }}
+        />
       </body>
     </html>
   );
