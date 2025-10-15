@@ -2,6 +2,7 @@
 
 This is my portfolio website developped using Next.js in Typescript.
 
+```
           _____            _____          
          /\    \          /\    \         
         /::\____\        /::\____\        
@@ -23,4 +24,4 @@ This is my portfolio website developped using Next.js in Typescript.
        \:::\____\        /:::/    /       
         \::/    /        \::/    /        
          \/____/          \/____/         
-             
+```       
